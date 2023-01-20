@@ -1,0 +1,30 @@
+.places {
+  margin: 0 auto;
+}
+
+
+
+@media screen and (min-width:1280px){
+  .places {
+    width: calc(984px + 1664 * ((100vw - 1280px) / 2240));
+    padding-top: 92px;
+  }
+}
+@media screen and (min-width:1024px) and (max-width:1279px){
+  .places {
+    width: calc(928px + 1888 * ((100vw - 1024px) / 1280));
+    padding-top: 92px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+  .places {
+    width: calc(720px + 832 * ((100vw - 768px) / 1024));
+    padding-top: 88px;
+  }
+}
+@media screen and (min-width:320px) and (max-width:767px){
+  .places {
+    max-width: calc(320px + 1600 * ((100vw - 320px) / 768));
+    padding-top: 64px;
+  }
+}
