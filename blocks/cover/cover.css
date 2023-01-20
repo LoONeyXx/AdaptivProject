@@ -5,21 +5,9 @@
   text-align: center;
   position: relative;
   cursor: pointer;
+  z-index: 1;
 }
 
-.cover:after {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.3);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-
-.cover:hover .cover__image {
-  opacity:0.8;
-}
 
 @media screen and (min-width:1280px){
   .cover {
