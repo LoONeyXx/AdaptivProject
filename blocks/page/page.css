@@ -1,5 +1,6 @@
 .page {
-  font-family: "Inter Regular";
+  font-family: "Inter Regular", Arial, serif;
+  font-weight: 400;
   background-color: #2A2C2F;
   color: white;
   box-sizing: border-box;
