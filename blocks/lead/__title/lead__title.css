@@ -1,35 +1,19 @@
 .lead__title {
-  font-family: "Inter Black", 'Arial', serif;
+  font-family: "Inter", 'Arial', serif;
+  font-weight: 900;
   margin: 0 auto;
   padding: 0;
   text-align: center;
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:768px){
   .lead__title {
-    width: calc(720px + 720 * ((100vw - 1280px) / 2240));
-    font-size: calc(96px + 96 * ((100vw - 1280px) / 2240));
-    line-height: 1.0416;
-  }
-}
-
-@media screen and (min-width:1024px) and (max-width:1279px) {
-  .lead__title {
-    max-width: 720px;
     font-size: 96px;
     line-height: 1.0416;
   }
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) {
-  .lead__title {
-    max-width: 720px;
-    font-size: 96px;
-    line-height: 1.0416;
-  }
-}
-
-@media screen and (min-width:320px) and (max-width:767px) {
+@media screen and (max-width:767px) {
   .lead__title {
     width: calc(288px + 734.4 * ((100vw - 320px) / 768));
     font-size: calc(40px + 95.2 * ((100vw - 320px) / 768));

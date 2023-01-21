@@ -7,7 +7,6 @@
   .header__lang-link {
     margin-top: calc(19px + -3.6 * ((100vw - 1280px) / 1600));
     margin-bottom: calc(7px + 6 * ((100vw - 1280px) / 1600));
-    min-height: 30px;
     font-size: calc(24px + 3.4 * ((100vw - 1280px) / 1400));
     line-height: 1.16em;
   }
@@ -16,7 +15,7 @@
   .header__lang-link {
     margin-top: 14px;
     margin-bottom: 8px;
-    height: 30px;
+
     font-size: 24px;
     line-height: 1.1666;
   }
@@ -25,16 +24,15 @@
   .header__lang-link {
     margin-top: 18px;
     margin-bottom: 6px;
-    height: 30px;
+ 
     font-size: 24px;
     line-height: 1.1666;
   }
 }
-@media screen and (min-width:320px) and (max-width:767px){
+@media screen and (max-width:767px){
   .header__lang-link {
     line-height: 1.1111;
     font-size: calc(18px + 10.2 * ((100vw - 320px) / 768));
-    height: calc(20px + 13.6 * ((100vw - 320px) / 768));
     margin-top: 14px;
     margin-bottom: 8px;
     

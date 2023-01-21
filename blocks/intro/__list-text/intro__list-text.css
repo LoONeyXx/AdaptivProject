@@ -1,20 +1,7 @@
 .intro__list-text {
-  font-family: "Inter Bold", Arial, serif;
+  font-family: "Inter", Arial, serif;
   font-weight: 700;
   margin: 0;
   line-height: 1.5;
-}
-
-
-
-@media screen and (min-width:1280px) {
-  .intro__list-text {
-    font-size: calc(12px + 17 * ((100vw - 1280px) / 2240));
-  }
-}
-
-@media screen and (min-width:320px) and (max-width:1279px) {
-  .intro__list-text {
-    font-size: 12px;
-  }
+  font-size: 12px;
 }

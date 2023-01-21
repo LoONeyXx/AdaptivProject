@@ -8,7 +8,7 @@
     row-gap: 48px;
     -moz-column-gap: 40px;
          column-gap: 40px;
-    grid-template-columns: calc(460px + 800 * (100vw - 1280px) / 2240) calc(484px + 800 * (100vw - 1280px) / 2240);
+    grid-template-columns: 460px 484px;
     grid-template-areas: "title link-zone" "image paragraph";
 
   }
@@ -33,7 +33,7 @@
 
   }
 }
-@media screen and (min-width:320px) and (max-width:767px){
+@media screen and (max-width:767px){
   .cards__item {
     row-gap: 32px;
     grid-template-areas: "title" "link-zone" "image" "paragraph";

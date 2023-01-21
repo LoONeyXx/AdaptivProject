@@ -5,8 +5,8 @@
 }
 @media screen and (min-width:1280px){
   .header {
-    width: calc(1184px + 1800 * ((100vw - 1280px) / 2240));
-    height: calc(52px + 126 * ((100vw - 1280px) / 1600));
+    max-width: 1184px;
+    max-height: 52px;
   }
 }
 @media screen and (min-width:1024px) and (max-width:1279px){
@@ -21,7 +21,7 @@
     max-height: 52px;
   }
 }
-@media screen and (min-width:320px) and (max-width:767px){
+@media screen  and (max-width:767px){
   .header {
     width: calc(288px + 734.4 * ((100vw - 320px) / 768));
     height: calc(48px + 6.8 * ((100vw - 320px) / 768));
