@@ -21,7 +21,7 @@
 @media screen and (max-width:767px){
   .cards__title {
     font-size: calc(32px + 17 * ((100vw - 320px) / 768));
-    line-height: 35px;
+    line-height: 1.09375;
     margin-left: 16px;
   }
 }
