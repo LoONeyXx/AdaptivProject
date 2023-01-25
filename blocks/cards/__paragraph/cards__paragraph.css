@@ -4,14 +4,14 @@
 }
 
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1024px) {
   .cards__paragraph {
     font-size: 18px;
     line-height: 29.34px;
   }
 }
 
-@media screen and (max-width:1023px){
+@media screen and (max-width:1023px) {
   .cards__paragraph {
     font-size: 16px;
     line-height: 26.08px;

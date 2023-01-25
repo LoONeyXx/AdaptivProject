@@ -5,18 +5,19 @@
   grid-area: link-zone;
 }
 
-@media screen and (min-width:1280px){
+@media screen and (min-width:1280px) {
   .cards__link-zone {
     gap: 11px;
   }
 }
 
-@media screen and (min-width:768px) and (max-width:1279px){
+@media screen and (min-width:768px) and (max-width:1279px) {
   .cards__link-zone {
     gap: 12px;
   }
 }
-@media screen and (max-width:767px){
+
+@media screen and (max-width:767px) {
   .cards__link-zone {
     gap: 12px;
     margin-left: 16px;

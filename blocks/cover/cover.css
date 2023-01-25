@@ -5,6 +5,11 @@
   background-repeat: no-repeat;
   box-sizing: border-box;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
 }
 
 .cover:after {
@@ -13,8 +18,10 @@
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
   top: 0;
-  left:0;
-  bottom:0;
+  left: 0;
+  bottom: 0;
+
+
 
 }
 
@@ -26,7 +33,7 @@
 @media screen and (min-width:1280px) {
   .cover {
     max-width: 1184px;
-    height: 740px;
+    min-height: 740px;
     margin: 92px auto;
     gap: 32px;
   }
@@ -34,8 +41,8 @@
 
 @media screen and (min-width:1024px) and (max-width:1279px) {
   .cover {
-    margin: 92px auto;
-    height: calc(640px + 450 * ((100vw - 1024px) / 1280));
+    min-height: 640px;
+    margin: 92px auto; 
     margin-left: calc(0px + 144 * ((100vw - 1024px) / 1280));
     margin-right: calc(0px + 144 * ((100vw - 1024px) / 1280));
     gap: 32px;
@@ -45,15 +52,15 @@
 @media screen and (min-width:768px) and (max-width:1023px) {
   .cover {
     margin: 90px 0 88px;
-    height: calc(480px + 640 * ((100vw - 768px) / 1024));
+    min-height: 480px;
     gap: 32px;
   }
 }
 
 @media screen and (max-width:767px) {
   .cover {
-    margin: 66px 0 64px;
+    margin: 66px auto 64px;
     gap: 16px;
-    height: calc(200px + 476 * ((100vw - 320px) / 768));
+    min-height: 200px;
   }
 }

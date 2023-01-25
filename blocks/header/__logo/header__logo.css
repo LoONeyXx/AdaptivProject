@@ -4,11 +4,14 @@
   -o-object-position: top;
   object-position: top;
   width: 176px;
+  max-height: 52px;
 
 }
 
 @media screen and (max-width:767px) {
   .header__logo {
-    width: calc(142px + 57.8 * ((100vw - 320px) / 768));
+    max-width: 142px;
+    max-height: 42px;
   }
 }
+

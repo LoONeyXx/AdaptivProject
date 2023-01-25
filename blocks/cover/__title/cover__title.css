@@ -7,21 +7,18 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
   .cover__title {
     font-size: 72px;
     max-width: 560px;
-    line-height: 1.055555555555556;
+    line-height: 76px;
   }
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:767px) {
   .cover__title {
-    font-size: calc(32px + 68 * ((100vw - 320px) / 768));
-    line-height: 1.09375;
-    width: calc(288px + 462.4 * ((100vw - 320px) / 768));
-    padding-left: calc(30px + -51 * ((100vw - 320px) / 768));
-    padding-right: calc(30px + -51 * ((100vw - 320px) / 768));
-
+    font-size: 32px;
+    line-height: 1.09375; 
+    max-width: 288px;
   }
 }
