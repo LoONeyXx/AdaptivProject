@@ -6,10 +6,11 @@
 @media screen and (min-width:768px) {
   .footer__menu-link {
     font-size: 16px;
-    line-height:18px;
+    line-height: 18px;
   }
 }
-@media screen and (max-width:767px){
+
+@media screen and (max-width:767px) {
   .footer__menu-link {
     font-size: 24px;
     line-height: 1;
