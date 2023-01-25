@@ -20,7 +20,7 @@
 @media screen and (min-width:1024px) and (max-width:1279px) {
   .cover__link {
     gap: 32px;
-    min-height: 640px;
+    min-height: calc(640px + 500 * ((100vw - 1024px) / 1280));
   }
 }
 
@@ -28,7 +28,7 @@
 @media screen and (min-width:768px) and (max-width:1023px) {
   .cover__link {
     gap: 32px;
-    min-height: 480px;
+    min-height: calc(480px + 500 * ((100vw - 768px) / 1024));
   }
 }
 
@@ -37,6 +37,6 @@
 @media screen and (max-width:767px) {
   .cover__link {
     gap: 16px;
-    min-height: 200px;
+    min-height: calc(200px + 500 * ((100vw - 320px) / 768));
   }
 }
